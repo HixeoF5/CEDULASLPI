@@ -2,6 +2,20 @@
  
  Projeto final, LPI, PROF.DERZU.
 
+ 01 - git clone https://github.com/HixeoF5/CEDULASLPI.git
+ 
+ 02 - cd CEDULASLPI
+
+ 03 - sudo apt update
+
+ 04 - sudo apt install g++ pkg-config libopencv-dev ffmpeg -y
+
+ 05 - Se for usar o celular como câmera, instale o Iriun Webcam no PC  e conecte o celular. Certifique-se de que a imagem do celular está aparecendo na tela do PC antes de rodar o código
+
+ 06 - g++ PROJFINAL.cpp -o PROJFINAL `pkg-config --cflags --libs opencv4`
+
+ 07 - ./PROJFINAL
+
 
 ```mermaid
 classDiagram
