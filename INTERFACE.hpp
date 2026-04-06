@@ -56,7 +56,7 @@ inline void desenharSidebar(Mat& frame, GerenciadorFinancas& fin, int valor, int
 inline void desenharMenu(Mat& menu) {
     menu = Mat::zeros(600, 1200, CV_8UC3);
 
-    putText(menu, "SISTEMA LAVIO", Point(380, 110), FONT_HERSHEY_SIMPLEX, 1.8, Scalar(0,255,255), 3, LINE_AA);
+    putText(menu, "PROJETO FINAL", Point(380, 110), FONT_HERSHEY_SIMPLEX, 1.8, Scalar(0,255,255), 3, LINE_AA);
     putText(menu, "Prof. Derzu", Point(510, 160), FONT_HERSHEY_SIMPLEX, 0.8, Scalar(180,180,180), 1, LINE_AA);
 
     rectangle(menu, Rect(450,220,300,70), Scalar(0,150,0), -1);
