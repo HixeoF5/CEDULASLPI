@@ -1,6 +1,6 @@
- Sistema de Reconhecimento de Cédulas 💵
+ Sistema de Reconhecimento de Cédulas 
  
- Projeto final, LPI, PROF.DERZU.
+ Projeto final da cadeira de linguagem de programação 1, LPI, PROF.DERZU. UFPB.
 
  01 - git clone https://github.com/HixeoF5/CEDULASLPI.git
  
@@ -15,6 +15,8 @@
  06 - g++ PROJFINAL.cpp -o PROJFINAL `pkg-config --cflags --libs opencv4`
 
  07 - ./PROJFINAL
+
+ 08 - Para somar as cedulas (enter)
 
 
 ```mermaid
