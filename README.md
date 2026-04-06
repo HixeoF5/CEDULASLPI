@@ -2,8 +2,7 @@
  Projeto final, LPI, PROF.DERZU.
 
 
-
-```
+```mermaid
 classDiagram
     class GerenciadorFinancas {
         <<Arquivo: CEDULAS.hpp>>
@@ -41,9 +40,9 @@ classDiagram
 
     class ModuloInterface {
         <<Arquivo: INTERFACE.hpp>>
-        +onMouse(int event, int x, int y, int flags, void* userdata) void
-        +desenharSidebar(Mat& frame, GerenciadorFinancas& fin, int valor, int conf) void
-        +desenharMenu(Mat& menu) void
+        +onMouse(event: int, x: int, y: int, flags: int, userdata: void*) void
+        +desenharSidebar(frame: Mat&, fin: GerenciadorFinancas&, valor: int, conf: int) void
+        +desenharMenu(menu: Mat&) void
     }
 
     class SistemaPrincipal {
@@ -55,4 +54,4 @@ classDiagram
     SistemaPrincipal --> GerenciadorFinancas : Instancia (Model)
     SistemaPrincipal --> MotorReconhecimento : Executa (Motor)
     SistemaPrincipal --> ModuloInterface : Renderiza (View)
-    ModuloInterface ..> GerenciadorFinancas : Lê dados para exibir
+    ModuloInterface ..> GerenciadorFinancas : Lê```
